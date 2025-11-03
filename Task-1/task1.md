@@ -1,7 +1,7 @@
 # Data Engineering Community LaunchPad Python task 1
 
-## Project Title
-Task is to build an automated quote email delivery platform using ZenQuotes API. Get quotes from the API and automate daily sending to subscribers’ email
+## Project Objective
+Task is to build an automated quote email delivery platform using ZenQuotes API. Get quotes from the API and automate daily sending to subscribers’ email.
 
 ## Project Overview
 The project is for MindFuel Company, a mental wellness startup.
