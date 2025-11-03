@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 # Create the users database
 Open ```database_setup.py``` and populate valid users details and save
-run below commands to setup a duckdb database:
+run below command to setup a duckdb database:
 ```
 python database_setup.py
 ```
