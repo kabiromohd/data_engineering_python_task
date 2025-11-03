@@ -10,31 +10,31 @@ import requests
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
-
 from email.mime.base import MIMEBase
 from email import encoders
 
 # CONFIGURATION
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT_SSL = 465  # SSL port
-SENDER_EMAIL = "kabirolawalemohammed@gmail.com"
-SENDER_PASSWORD = "pmvbrckrxvlmbdah"
-ADMIN_EMAIL = "kabirwale@yahoo.com"
+SENDER_EMAIL = "senders_email@gmail.com"
+SENDER_PASSWORD = "your_app_password_here"  # Use Gmail App Password
+ADMIN_EMAIL = "admin_email@yahoo.com"
+DB_PATH = "/home/kabiromohd/data_engineering_python_task/Task-1/quote_task.db"
+LOG_FILE = "/home/kabiromohd/data_engineering_python_task/Task-1/email_service.log"
+URL = "https://zenquotes.io/api/today"
 
 # Logging configuration
-LOG_FILE = "/home/kabiromohd/data_engineering_python_task/Task-1/email_service.log"
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-
 # Database connection
 def get_connection():
     logging.info("Connecting to the database...")
     print("Connecting to the database...")
-    return duckdb.connect('/home/kabiromohd/data_engineering_python_task/Task-1/quote_task.db')
+    return duckdb.connect(DB_PATH)
 
 # Fetch active users
 def get_active_users(frequency="daily"):
@@ -60,7 +60,7 @@ def get_active_users(frequency="daily"):
 def fetch_quote():
     logging.info("Fetching quote from API...")
     print("Fetching quote from API...")
-    url = "https://zenquotes.io/api/today"
+    url = URL
     try:
         response = requests.get(url, timeout=10)
         if response.status_code != 200:
