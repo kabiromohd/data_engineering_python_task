@@ -37,7 +37,10 @@ Task is to build a production-grade backend service that:
 - Failures and retry attempts
 - Send email summary logs to admin (e.g., daily email with stats)
 
-## Requirements for project:
+### 5. Environment Variable
+- rename ```.env_test``` to ```.env``` and populate the relevant parameters for task1
+
+### 6. Requirements for project:
 Clone Project directory
 ```
 git clone https://github.com/kabiromohd/data_engineering_python_task.git
@@ -47,15 +50,19 @@ cd kabiromohd/data_engineering_python_task/Task-1
 pip install -r requirements.txt
 ```
 
-# Create the users database
-Open ```database_setup.py``` and populate valid users details and save
-run below command to setup a duckdb database:
+### 7. Create the users database
+Open ```database_setup.py``` and populate valid users details and save.
+Run below command to setup a duckdb database:
 ```
 python database_setup.py
 ```
-# Setup of email service
-- Populate the credentials in the .env file
+### 8. Email service lunch via cron or manual
 - setup a cron job as in below screenshot
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/19a8484d-4c5c-4be2-9f80-70e4444ff8f5" />
+
+- The App can be manually run via this comman:
+```
+python task1-notebook.py
+```
 
