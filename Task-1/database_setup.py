@@ -1,7 +1,15 @@
 import duckdb
+import os
+from dotenv import load_dotenv
 
-DB_PATH = '/home/kabiromohd/data_engineering_python_task/Task-1/quote_task.db'
+# Load environment variables from .env file
+load_dotenv()
+
+# Get database path from environment variable
+DB_PATH = os.getenv('DB_PATH')
 # Create a connection to duckdb
+
+# Establish connection to DuckDB database
 conn = duckdb.connect(DB_PATH)
 
 # create users table
@@ -20,8 +28,8 @@ conn.execute("""
 INSERT INTO users 
 (user_id, name, email, subscription_status, email_frequency)
 VALUES
-(1, 'Kabir Mohammed', 'email1@yahoo.com', 'active', 'daily'),
-(2, 'Bala Usman', 'email2@gmail.com', 'active', 'weekly'),
-(3, 'Sanusi Badaru', 'email3@yahoo.com', 'inactive', 'daily'),
-(4, 'Abubakar Mohammed', 'email4@yahoo.com', 'active', 'daily');
+(1, 'Name1', 'email1@yahoo.com', 'active', 'daily'),
+(2, 'Name2', 'email2@gmail.com', 'active', 'weekly'),
+(3, 'Name3', 'email3@yahoo.com', 'inactive', 'daily'),
+(4, 'Name4', 'email4@yahoo.com', 'active', 'daily');
 """)

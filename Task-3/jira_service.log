@@ -1,0 +1,615 @@
+2025-11-10 01:10:20,537 - root - INFO - Successfully connected to Supabase database.
+2025-11-10 01:10:20,537 - root - INFO - Connected to the database.
+2025-11-10 01:10:20,538 - root - INFO - No previous run found. Assuming first run.
+2025-11-10 01:10:20,539 - root - INFO - This is a first run, fetching all requests from the database...
+2025-11-10 01:10:21,153 - root - INFO - Database connection closed.
+2025-11-10 01:10:21,155 - root - INFO - Last run date saved: 2025-11-10
+2025-11-10 01:10:21,155 - root - INFO - Last run time saved.
+2025-11-10 01:10:21,155 - root - INFO - Fetched 200 new requests.
+2025-11-10 01:10:21,156 - root - INFO - Initial data file not found. Entire database fetched and will be processed.
+2025-11-10 01:10:21,239 - root - INFO - Preprocessing fetched requests...
+2025-11-10 01:10:21,275 - root - INFO - Saving preprocessed data to /home/kabiromohd/python_task/data_engineering_python_task/Task-3/preprocessed_requests.csv
+2025-11-10 01:10:21,281 - root - INFO - Preprocessing completed and saved to csv.
+2025-11-10 01:10:21,281 - root - INFO - Creating Jira issues...
+2025-11-10 01:10:21,281 - root - INFO - Reading preprocessed CSV file from /home/kabiromohd/python_task/data_engineering_python_task/Task-3/preprocessed_requests.csv
+2025-11-10 01:10:21,297 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:23,658 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:23,672 - root - INFO - Created Jira ticket: COW-124 for Courtney Rivera
+2025-11-10 01:10:23,675 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:25,162 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:25,201 - root - INFO - Created Jira ticket: COW-125 for Tammy Smith
+2025-11-10 01:10:25,206 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:26,084 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:26,100 - root - INFO - Created Jira ticket: COW-126 for Erica Hill
+2025-11-10 01:10:26,102 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:27,409 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:27,411 - root - INFO - Created Jira ticket: COW-127 for Amy Turner
+2025-11-10 01:10:27,416 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:31,361 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:31,381 - root - INFO - Created Jira ticket: COW-128 for Sara Curtis
+2025-11-10 01:10:31,385 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:32,317 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:32,335 - root - INFO - Created Jira ticket: COW-129 for Brent Anderson
+2025-11-10 01:10:32,336 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:33,550 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:33,570 - root - INFO - Created Jira ticket: COW-130 for Charles Smith
+2025-11-10 01:10:33,572 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:34,461 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:34,478 - root - INFO - Created Jira ticket: COW-131 for Allison Barnes
+2025-11-10 01:10:34,483 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:36,020 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:36,044 - root - INFO - Created Jira ticket: COW-132 for Lee Martinez
+2025-11-10 01:10:36,046 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:37,390 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:37,415 - root - INFO - Created Jira ticket: COW-133 for Colleen Dawson
+2025-11-10 01:10:37,419 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:38,329 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:38,340 - root - INFO - Created Jira ticket: COW-134 for Jason Rivera
+2025-11-10 01:10:38,345 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:39,244 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:39,248 - root - INFO - Created Jira ticket: COW-135 for Charles Davis
+2025-11-10 01:10:39,250 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:40,083 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:40,096 - root - INFO - Created Jira ticket: COW-136 for Stephen Bennett
+2025-11-10 01:10:40,101 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:40,914 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:40,918 - root - INFO - Created Jira ticket: COW-137 for Douglas Mccoy
+2025-11-10 01:10:40,923 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:41,960 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:41,969 - root - INFO - Created Jira ticket: COW-138 for Mark Smith
+2025-11-10 01:10:41,973 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:42,864 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:42,877 - root - INFO - Created Jira ticket: COW-139 for Laura Jackson
+2025-11-10 01:10:42,882 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:43,840 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:43,855 - root - INFO - Created Jira ticket: COW-140 for Joseph Ochoa
+2025-11-10 01:10:43,858 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:44,722 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:44,735 - root - INFO - Created Jira ticket: COW-141 for Morgan Lloyd
+2025-11-10 01:10:44,739 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:45,831 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:45,858 - root - INFO - Created Jira ticket: COW-142 for Hannah Martin DDS
+2025-11-10 01:10:45,861 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:46,733 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:46,747 - root - INFO - Created Jira ticket: COW-143 for Elizabeth Gordon
+2025-11-10 01:10:46,751 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:48,828 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:48,849 - root - INFO - Created Jira ticket: COW-144 for Patrick Brown
+2025-11-10 01:10:48,851 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:49,744 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:49,761 - root - INFO - Created Jira ticket: COW-145 for Corey Mclean
+2025-11-10 01:10:49,764 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:50,797 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:50,814 - root - INFO - Created Jira ticket: COW-146 for Michelle Kelley
+2025-11-10 01:10:50,818 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:51,611 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:51,627 - root - INFO - Created Jira ticket: COW-147 for Victor Soto
+2025-11-10 01:10:51,632 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:52,751 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:52,767 - root - INFO - Created Jira ticket: COW-148 for Mark Terry
+2025-11-10 01:10:52,769 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:53,707 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:53,726 - root - INFO - Created Jira ticket: COW-149 for Amber Lewis
+2025-11-10 01:10:53,727 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:54,536 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:54,560 - root - INFO - Created Jira ticket: COW-150 for Christina Carpenter
+2025-11-10 01:10:54,563 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:55,368 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:55,380 - root - INFO - Created Jira ticket: COW-151 for Katrina Conner
+2025-11-10 01:10:55,382 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:56,280 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:56,300 - root - INFO - Created Jira ticket: COW-152 for Erik Wells
+2025-11-10 01:10:56,304 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:57,525 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:57,538 - root - INFO - Created Jira ticket: COW-153 for Wendy Curtis
+2025-11-10 01:10:57,540 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:58,647 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:58,663 - root - INFO - Created Jira ticket: COW-154 for Michael Ingram
+2025-11-10 01:10:58,667 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:10:59,575 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:10:59,595 - root - INFO - Created Jira ticket: COW-155 for Charles White
+2025-11-10 01:10:59,600 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:00,525 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:00,536 - root - INFO - Created Jira ticket: COW-156 for Lisa Henderson
+2025-11-10 01:11:00,541 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:01,522 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:01,542 - root - INFO - Created Jira ticket: COW-157 for Claudia Harrison
+2025-11-10 01:11:01,543 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:02,385 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:02,410 - root - INFO - Created Jira ticket: COW-158 for Mr. Alexander Barnes
+2025-11-10 01:11:02,412 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:03,255 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:03,279 - root - INFO - Created Jira ticket: COW-159 for Brian Campbell
+2025-11-10 01:11:03,281 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:04,192 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:04,213 - root - INFO - Created Jira ticket: COW-160 for Robert Anderson
+2025-11-10 01:11:04,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:05,369 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:05,387 - root - INFO - Created Jira ticket: COW-161 for Chelsea Stephens
+2025-11-10 01:11:05,389 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:06,646 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:06,665 - root - INFO - Created Jira ticket: COW-162 for Jessica Archer
+2025-11-10 01:11:06,668 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:07,735 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:07,757 - root - INFO - Created Jira ticket: COW-163 for Andrew Fernandez
+2025-11-10 01:11:07,760 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:08,865 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:08,875 - root - INFO - Created Jira ticket: COW-164 for Robert Fuller
+2025-11-10 01:11:08,880 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:09,835 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:09,850 - root - INFO - Created Jira ticket: COW-165 for Krystal Diaz MD
+2025-11-10 01:11:09,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:10,977 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:10,999 - root - INFO - Created Jira ticket: COW-166 for Cheryl Allen
+2025-11-10 01:11:11,004 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:12,097 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:12,109 - root - INFO - Created Jira ticket: COW-167 for Stephanie Irwin
+2025-11-10 01:11:12,114 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:12,996 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:13,007 - root - INFO - Created Jira ticket: COW-168 for Patricia Montgomery
+2025-11-10 01:11:13,011 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:13,924 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:13,935 - root - INFO - Created Jira ticket: COW-169 for David Stevens
+2025-11-10 01:11:13,939 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:14,800 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:14,812 - root - INFO - Created Jira ticket: COW-170 for Dawn Davis
+2025-11-10 01:11:14,815 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:15,778 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:15,799 - root - INFO - Created Jira ticket: COW-171 for Ronald Williams
+2025-11-10 01:11:15,802 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:16,656 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:16,669 - root - INFO - Created Jira ticket: COW-172 for Anita Holden
+2025-11-10 01:11:16,674 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:17,546 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:17,559 - root - INFO - Created Jira ticket: COW-173 for Michele Logan DDS
+2025-11-10 01:11:17,563 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:18,465 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:18,477 - root - INFO - Created Jira ticket: COW-174 for Karla Rose
+2025-11-10 01:11:18,479 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:19,390 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:19,397 - root - INFO - Created Jira ticket: COW-175 for Judy Villegas
+2025-11-10 01:11:19,401 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:20,401 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:20,421 - root - INFO - Created Jira ticket: COW-176 for Cory Sanchez
+2025-11-10 01:11:20,422 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:22,812 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:22,825 - root - INFO - Created Jira ticket: COW-177 for William Holloway
+2025-11-10 01:11:22,830 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:23,815 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:23,831 - root - INFO - Created Jira ticket: COW-178 for John Smith
+2025-11-10 01:11:23,836 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:24,657 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:24,672 - root - INFO - Created Jira ticket: COW-179 for Robert Lopez
+2025-11-10 01:11:24,674 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:25,812 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:25,823 - root - INFO - Created Jira ticket: COW-180 for Jacob Cantu
+2025-11-10 01:11:25,825 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:26,807 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:26,829 - root - INFO - Created Jira ticket: COW-181 for Brian Soto
+2025-11-10 01:11:26,833 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:27,837 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:27,855 - root - INFO - Created Jira ticket: COW-182 for Mr. Michael Fitzgerald DVM
+2025-11-10 01:11:27,859 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:28,843 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:28,847 - root - INFO - Created Jira ticket: COW-183 for Beth Bowman
+2025-11-10 01:11:28,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:29,817 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:29,838 - root - INFO - Created Jira ticket: COW-184 for Benjamin Beck
+2025-11-10 01:11:29,840 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:30,955 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:30,981 - root - INFO - Created Jira ticket: COW-185 for Joshua Walls
+2025-11-10 01:11:30,984 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:32,088 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:32,104 - root - INFO - Created Jira ticket: COW-186 for Karen Russell
+2025-11-10 01:11:32,107 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:33,144 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:33,156 - root - INFO - Created Jira ticket: COW-187 for Jordan Miranda
+2025-11-10 01:11:33,160 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:34,107 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:34,122 - root - INFO - Created Jira ticket: COW-188 for Felicia Hall
+2025-11-10 01:11:34,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:35,037 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:35,058 - root - INFO - Created Jira ticket: COW-189 for Laura Smith
+2025-11-10 01:11:35,062 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:36,096 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:36,111 - root - INFO - Created Jira ticket: COW-190 for Crystal Glass
+2025-11-10 01:11:36,115 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:37,027 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:37,047 - root - INFO - Created Jira ticket: COW-191 for Louis Butler
+2025-11-10 01:11:37,050 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:37,880 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:37,897 - root - INFO - Created Jira ticket: COW-192 for Kathryn Hartman
+2025-11-10 01:11:37,900 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:39,004 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:39,026 - root - INFO - Created Jira ticket: COW-193 for Julie Cole
+2025-11-10 01:11:39,029 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:39,948 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:39,963 - root - INFO - Created Jira ticket: COW-194 for Amy Johnson
+2025-11-10 01:11:39,965 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:40,911 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:40,928 - root - INFO - Created Jira ticket: COW-195 for Sarah Holloway
+2025-11-10 01:11:40,931 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:41,822 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:41,845 - root - INFO - Created Jira ticket: COW-196 for John Torres
+2025-11-10 01:11:41,850 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:42,666 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:42,685 - root - INFO - Created Jira ticket: COW-197 for Jared Wood
+2025-11-10 01:11:42,688 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:43,540 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:43,554 - root - INFO - Created Jira ticket: COW-198 for Terri Hunt
+2025-11-10 01:11:43,558 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:44,723 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:44,742 - root - INFO - Created Jira ticket: COW-199 for William Williams
+2025-11-10 01:11:44,746 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:45,625 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:45,649 - root - INFO - Created Jira ticket: COW-200 for Christopher Garcia
+2025-11-10 01:11:45,654 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:46,509 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:46,526 - root - INFO - Created Jira ticket: COW-201 for Marcus Jones
+2025-11-10 01:11:46,528 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:47,436 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:47,456 - root - INFO - Created Jira ticket: COW-202 for Vickie Vargas
+2025-11-10 01:11:47,461 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:48,334 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:48,352 - root - INFO - Created Jira ticket: COW-203 for Chris Moreno
+2025-11-10 01:11:48,357 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:49,362 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:49,377 - root - INFO - Created Jira ticket: COW-204 for Michael Jackson
+2025-11-10 01:11:49,381 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:50,201 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:50,213 - root - INFO - Created Jira ticket: COW-205 for Dustin Khan
+2025-11-10 01:11:50,215 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:51,295 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:51,321 - root - INFO - Created Jira ticket: COW-206 for Lynn Robertson
+2025-11-10 01:11:51,327 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:52,425 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:52,444 - root - INFO - Created Jira ticket: COW-207 for Dana Adams DDS
+2025-11-10 01:11:52,448 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:53,309 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:53,324 - root - INFO - Created Jira ticket: COW-208 for Christopher Wilson
+2025-11-10 01:11:53,328 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:55,506 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:55,526 - root - INFO - Created Jira ticket: COW-209 for Jillian Hall
+2025-11-10 01:11:55,531 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:56,363 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:56,368 - root - INFO - Created Jira ticket: COW-210 for Stephanie Smith
+2025-11-10 01:11:56,372 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:57,432 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:57,441 - root - INFO - Created Jira ticket: COW-211 for Alexandra Rios
+2025-11-10 01:11:57,445 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:58,346 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:58,359 - root - INFO - Created Jira ticket: COW-212 for Vanessa Mcdowell
+2025-11-10 01:11:58,361 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:11:59,246 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:11:59,270 - root - INFO - Created Jira ticket: COW-213 for Sarah Campbell
+2025-11-10 01:11:59,275 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:00,437 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:00,449 - root - INFO - Created Jira ticket: COW-214 for Nathaniel Chambers
+2025-11-10 01:12:00,452 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:01,353 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:01,369 - root - INFO - Created Jira ticket: COW-215 for Cathy Smith
+2025-11-10 01:12:01,373 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:02,373 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:02,384 - root - INFO - Created Jira ticket: COW-216 for Brianna Lynch
+2025-11-10 01:12:02,386 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:03,285 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:03,362 - root - INFO - Created Jira ticket: COW-217 for Lisa Carter
+2025-11-10 01:12:03,366 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:04,373 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:04,398 - root - INFO - Created Jira ticket: COW-218 for Summer Leach
+2025-11-10 01:12:04,403 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:05,564 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:05,577 - root - INFO - Created Jira ticket: COW-219 for Randall Lawson
+2025-11-10 01:12:05,581 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:06,438 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:06,456 - root - INFO - Created Jira ticket: COW-220 for Larry Nelson
+2025-11-10 01:12:06,460 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:07,404 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:07,421 - root - INFO - Created Jira ticket: COW-221 for Cristian Gilmore
+2025-11-10 01:12:07,425 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:08,282 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:08,300 - root - INFO - Created Jira ticket: COW-222 for Sherri Leblanc
+2025-11-10 01:12:08,304 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:10,191 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:10,212 - root - INFO - Created Jira ticket: COW-223 for Wendy Fuentes
+2025-11-10 01:12:10,213 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:11,429 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:11,447 - root - INFO - Created Jira ticket: COW-224 for Dylan Reyes
+2025-11-10 01:12:11,449 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:12,465 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:12,482 - root - INFO - Created Jira ticket: COW-225 for Gina Figueroa
+2025-11-10 01:12:12,485 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:13,605 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:13,629 - root - INFO - Created Jira ticket: COW-226 for Christopher Escobar
+2025-11-10 01:12:13,630 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:14,645 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:14,661 - root - INFO - Created Jira ticket: COW-227 for Dustin Adkins MD
+2025-11-10 01:12:14,663 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:15,608 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:15,627 - root - INFO - Created Jira ticket: COW-228 for Kyle Middleton
+2025-11-10 01:12:15,630 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:16,738 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:16,748 - root - INFO - Created Jira ticket: COW-229 for Benjamin Ward
+2025-11-10 01:12:16,765 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:17,726 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:17,742 - root - INFO - Created Jira ticket: COW-230 for Kenneth Price
+2025-11-10 01:12:17,744 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:18,626 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:18,641 - root - INFO - Created Jira ticket: COW-231 for Lindsey King
+2025-11-10 01:12:18,645 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:19,718 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:19,732 - root - INFO - Created Jira ticket: COW-232 for Susan Ali
+2025-11-10 01:12:19,735 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:20,793 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:20,814 - root - INFO - Created Jira ticket: COW-233 for Philip Lee
+2025-11-10 01:12:20,817 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:24,839 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:24,865 - root - INFO - Created Jira ticket: COW-234 for Deanna Nguyen
+2025-11-10 01:12:24,869 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:25,886 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:25,899 - root - INFO - Created Jira ticket: COW-235 for Tommy Mendez
+2025-11-10 01:12:25,903 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:26,774 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:26,799 - root - INFO - Created Jira ticket: COW-236 for Steven Moss
+2025-11-10 01:12:26,803 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:29,086 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:29,093 - root - INFO - Created Jira ticket: COW-237 for Andrea Jensen
+2025-11-10 01:12:29,097 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:30,083 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:30,097 - root - INFO - Created Jira ticket: COW-238 for Kayla Daniels
+2025-11-10 01:12:30,101 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:31,164 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:31,181 - root - INFO - Created Jira ticket: COW-239 for David Miller
+2025-11-10 01:12:31,182 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:32,104 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:32,127 - root - INFO - Created Jira ticket: COW-240 for Elizabeth Myers
+2025-11-10 01:12:32,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:32,965 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:32,980 - root - INFO - Created Jira ticket: COW-241 for Lucas Williams
+2025-11-10 01:12:32,985 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:34,053 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:34,072 - root - INFO - Created Jira ticket: COW-242 for Kevin White
+2025-11-10 01:12:34,074 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:35,017 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:35,032 - root - INFO - Created Jira ticket: COW-243 for Derek Daniels
+2025-11-10 01:12:35,037 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:36,098 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:36,123 - root - INFO - Created Jira ticket: COW-244 for Ronald Anderson
+2025-11-10 01:12:36,128 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:37,032 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:37,042 - root - INFO - Created Jira ticket: COW-245 for Jennifer Gill
+2025-11-10 01:12:37,044 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:37,863 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:37,885 - root - INFO - Created Jira ticket: COW-246 for Emily Allison
+2025-11-10 01:12:37,889 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:38,936 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:38,966 - root - INFO - Created Jira ticket: COW-247 for Tammy Thompson
+2025-11-10 01:12:38,971 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:39,832 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:39,855 - root - INFO - Created Jira ticket: COW-248 for Colleen Watson
+2025-11-10 01:12:39,860 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:40,885 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:40,899 - root - INFO - Created Jira ticket: COW-249 for Roger Harris
+2025-11-10 01:12:40,902 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:41,831 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:41,842 - root - INFO - Created Jira ticket: COW-250 for Amanda Watkins
+2025-11-10 01:12:41,844 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:42,902 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:42,916 - root - INFO - Created Jira ticket: COW-251 for Kimberly Edwards
+2025-11-10 01:12:42,920 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:43,843 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:43,871 - root - INFO - Created Jira ticket: COW-252 for Kevin Lopez
+2025-11-10 01:12:43,873 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:44,843 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:44,866 - root - INFO - Created Jira ticket: COW-253 for Robert Smith MD
+2025-11-10 01:12:44,871 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:45,802 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:45,812 - root - INFO - Created Jira ticket: COW-254 for Lisa Gonzalez
+2025-11-10 01:12:45,816 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:46,647 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:46,661 - root - INFO - Created Jira ticket: COW-255 for Zachary Mcneil
+2025-11-10 01:12:46,662 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:47,593 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:47,608 - root - INFO - Created Jira ticket: COW-256 for Javier Brown
+2025-11-10 01:12:47,613 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:48,495 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:48,506 - root - INFO - Created Jira ticket: COW-257 for Mary Wilson
+2025-11-10 01:12:48,511 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:49,604 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:49,626 - root - INFO - Created Jira ticket: COW-258 for Becky Ellison
+2025-11-10 01:12:49,630 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:50,804 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:50,823 - root - INFO - Created Jira ticket: COW-259 for Patrick Jones
+2025-11-10 01:12:50,829 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:51,754 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:51,770 - root - INFO - Created Jira ticket: COW-260 for Christopher Cochran
+2025-11-10 01:12:51,775 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:52,672 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:52,687 - root - INFO - Created Jira ticket: COW-261 for Peter Bell
+2025-11-10 01:12:52,691 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:53,609 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:53,624 - root - INFO - Created Jira ticket: COW-262 for James Williams
+2025-11-10 01:12:53,629 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:54,719 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:54,734 - root - INFO - Created Jira ticket: COW-263 for Regina Alexander
+2025-11-10 01:12:54,739 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:55,868 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:55,876 - root - INFO - Created Jira ticket: COW-264 for Elizabeth Banks
+2025-11-10 01:12:55,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:56,733 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:56,750 - root - INFO - Created Jira ticket: COW-265 for Hannah Rodriguez
+2025-11-10 01:12:56,755 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:57,661 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:57,674 - root - INFO - Created Jira ticket: COW-266 for Charles Wood
+2025-11-10 01:12:57,678 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:58,717 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:58,727 - root - INFO - Created Jira ticket: COW-267 for David Robles
+2025-11-10 01:12:58,731 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:12:59,610 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:12:59,627 - root - INFO - Created Jira ticket: COW-268 for Robert Gonzalez
+2025-11-10 01:12:59,631 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:00,722 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:00,738 - root - INFO - Created Jira ticket: COW-269 for Anthony Lopez
+2025-11-10 01:13:00,740 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:02,796 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:02,806 - root - INFO - Created Jira ticket: COW-270 for Beth Smith
+2025-11-10 01:13:02,808 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:03,912 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:03,928 - root - INFO - Created Jira ticket: COW-271 for Kevin Nielsen
+2025-11-10 01:13:03,930 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:04,808 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:04,820 - root - INFO - Created Jira ticket: COW-272 for James Banks
+2025-11-10 01:13:04,823 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:05,784 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:05,805 - root - INFO - Created Jira ticket: COW-273 for Victor Nguyen
+2025-11-10 01:13:05,807 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:06,910 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:06,928 - root - INFO - Created Jira ticket: COW-274 for Richard Daniel
+2025-11-10 01:13:06,931 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:07,857 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:07,876 - root - INFO - Created Jira ticket: COW-275 for Katie Moreno
+2025-11-10 01:13:07,881 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:08,772 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:08,797 - root - INFO - Created Jira ticket: COW-276 for William Sexton
+2025-11-10 01:13:08,802 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:10,464 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:10,479 - root - INFO - Created Jira ticket: COW-277 for Julia Mccarthy
+2025-11-10 01:13:10,482 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:11,416 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:11,436 - root - INFO - Created Jira ticket: COW-278 for Michelle Ramsey
+2025-11-10 01:13:11,439 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:12,544 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:12,567 - root - INFO - Created Jira ticket: COW-279 for Ryan Martinez
+2025-11-10 01:13:12,571 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:13,419 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:13,446 - root - INFO - Created Jira ticket: COW-280 for Glen Cox
+2025-11-10 01:13:13,449 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:14,365 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:14,391 - root - INFO - Created Jira ticket: COW-281 for Benjamin Bell
+2025-11-10 01:13:14,394 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:15,521 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:15,531 - root - INFO - Created Jira ticket: COW-282 for Deborah Chapman
+2025-11-10 01:13:15,535 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:16,504 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:16,544 - root - INFO - Created Jira ticket: COW-283 for Holly Davis
+2025-11-10 01:13:16,547 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:17,423 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:17,442 - root - INFO - Created Jira ticket: COW-284 for Hannah Ware
+2025-11-10 01:13:17,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:18,530 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:18,543 - root - INFO - Created Jira ticket: COW-285 for Michael Bradley
+2025-11-10 01:13:18,546 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:19,378 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:19,402 - root - INFO - Created Jira ticket: COW-286 for Deborah Rose
+2025-11-10 01:13:19,406 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:20,384 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:20,387 - root - INFO - Created Jira ticket: COW-287 for Robert Leonard
+2025-11-10 01:13:20,392 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:21,243 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:21,265 - root - INFO - Created Jira ticket: COW-288 for William Dickson
+2025-11-10 01:13:21,269 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:22,338 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:22,347 - root - INFO - Created Jira ticket: COW-289 for Kenneth Jacobson
+2025-11-10 01:13:22,350 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:23,205 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:23,226 - root - INFO - Created Jira ticket: COW-290 for Samuel Anderson
+2025-11-10 01:13:23,228 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:24,256 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:24,268 - root - INFO - Created Jira ticket: COW-291 for Javier Cole
+2025-11-10 01:13:24,272 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:25,344 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:25,368 - root - INFO - Created Jira ticket: COW-292 for Michael Stafford
+2025-11-10 01:13:25,370 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:26,319 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:26,321 - root - INFO - Created Jira ticket: COW-293 for Christopher Brewer
+2025-11-10 01:13:26,325 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:27,204 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:27,213 - root - INFO - Created Jira ticket: COW-294 for Jennifer Wilson
+2025-11-10 01:13:27,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:28,033 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:28,044 - root - INFO - Created Jira ticket: COW-295 for Mark Delgado
+2025-11-10 01:13:28,048 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:28,967 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:28,982 - root - INFO - Created Jira ticket: COW-296 for Amanda Morales
+2025-11-10 01:13:28,985 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:29,884 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:29,903 - root - INFO - Created Jira ticket: COW-297 for Christina Meyers
+2025-11-10 01:13:29,906 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:31,045 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:31,070 - root - INFO - Created Jira ticket: COW-298 for Chad Bell
+2025-11-10 01:13:31,077 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:32,139 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:32,153 - root - INFO - Created Jira ticket: COW-299 for Stephanie Lambert
+2025-11-10 01:13:32,157 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:33,145 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:33,168 - root - INFO - Created Jira ticket: COW-300 for Rebecca Chandler
+2025-11-10 01:13:33,171 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:34,130 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:34,145 - root - INFO - Created Jira ticket: COW-301 for Betty Daniel
+2025-11-10 01:13:34,149 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:36,469 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:36,498 - root - INFO - Created Jira ticket: COW-302 for Ronald Blankenship
+2025-11-10 01:13:36,502 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:37,389 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:37,406 - root - INFO - Created Jira ticket: COW-303 for John Carter
+2025-11-10 01:13:37,408 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:38,530 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:38,548 - root - INFO - Created Jira ticket: COW-304 for Richard Baker
+2025-11-10 01:13:38,552 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:39,689 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:39,709 - root - INFO - Created Jira ticket: COW-305 for Randall Schroeder
+2025-11-10 01:13:39,713 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:40,566 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:40,580 - root - INFO - Created Jira ticket: COW-306 for Eric Freeman
+2025-11-10 01:13:40,584 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:41,378 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:41,392 - root - INFO - Created Jira ticket: COW-307 for Wendy Jones
+2025-11-10 01:13:41,397 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:42,468 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:42,485 - root - INFO - Created Jira ticket: COW-308 for Hannah Gibson
+2025-11-10 01:13:42,488 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:43,486 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:43,501 - root - INFO - Created Jira ticket: COW-309 for Tiffany Haney
+2025-11-10 01:13:43,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:44,338 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:44,352 - root - INFO - Created Jira ticket: COW-310 for Michael Duke
+2025-11-10 01:13:44,356 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:45,168 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:45,194 - root - INFO - Created Jira ticket: COW-311 for Alexa Berry
+2025-11-10 01:13:45,197 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:46,069 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:46,082 - root - INFO - Created Jira ticket: COW-312 for Debra Moore
+2025-11-10 01:13:46,088 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:46,994 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:47,007 - root - INFO - Created Jira ticket: COW-313 for Jeffrey Villanueva
+2025-11-10 01:13:47,009 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:48,115 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:48,137 - root - INFO - Created Jira ticket: COW-314 for Annette Wilson
+2025-11-10 01:13:48,139 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:49,210 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:49,229 - root - INFO - Created Jira ticket: COW-315 for Wayne Elliott
+2025-11-10 01:13:49,233 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:50,048 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:50,069 - root - INFO - Created Jira ticket: COW-316 for Peter Melendez
+2025-11-10 01:13:50,073 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:50,879 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:50,889 - root - INFO - Created Jira ticket: COW-317 for Amanda Thomas
+2025-11-10 01:13:50,894 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:51,666 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:51,681 - root - INFO - Created Jira ticket: COW-318 for Sharon Thornton
+2025-11-10 01:13:51,685 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:52,561 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:52,578 - root - INFO - Created Jira ticket: COW-319 for Alexis Mullins
+2025-11-10 01:13:52,581 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:53,769 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:53,795 - root - INFO - Created Jira ticket: COW-320 for William Tucker
+2025-11-10 01:13:53,800 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:54,611 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:54,625 - root - INFO - Created Jira ticket: COW-321 for John Wilson
+2025-11-10 01:13:54,627 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:55,645 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:55,668 - root - INFO - Created Jira ticket: COW-322 for Colleen Pace
+2025-11-10 01:13:55,669 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): kabirolawalemohammed.atlassian.net:443
+2025-11-10 01:13:56,649 - urllib3.connectionpool - DEBUG - https://kabirolawalemohammed.atlassian.net:443 "POST /rest/api/3/issue HTTP/11" 201 None
+2025-11-10 01:13:56,677 - root - INFO - Created Jira ticket: COW-323 for Benjamin Jackson
+2025-11-10 01:13:56,679 - root - INFO - Jira issues creation completed.
