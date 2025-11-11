@@ -1,5 +1,5 @@
 duckdb
 requests
-pip
+psycopg2
 dotenv
 
