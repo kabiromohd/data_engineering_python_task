@@ -18,5 +18,4 @@ pip install -r requirements.txt
 ```
 
 ## Populate credentials
-Make a copy of ```.env_test``` and rename it ```.env```
-Than update the relevant credentials as appropriate
+Make a copy of ```.env_test``` and rename it ```.env```, then update the relevant credentials as appropriate
