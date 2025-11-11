@@ -1,4 +1,4 @@
-# Data Engineering Community LaunchPad Python task 2
+# Data Engineering Community LaunchPad Python task 3
 
 ## COW JACKET: PYTHON AUTOMATION
 
@@ -23,5 +23,6 @@ Here’s the breakdown from the Head of Support:
 A python script (```task3-notebook.py```) has been develop to handle the able process. A cron job has also been setup to run every 15minutes as shown below
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/677b0ecd-9b6a-4be4-9464-92de9caebcc6" />
+
 
 
