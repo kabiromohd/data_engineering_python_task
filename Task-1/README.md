@@ -63,6 +63,6 @@ python database_setup.py
 
 - The App can be manually run via this comman:
 ```
-python task1-notebook.py
+python task1-script.py
 ```
 
